@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 60px 0;
+        }
+        section#showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        section#about, section#work, section#contact {
+            padding: 20px;
+            background: #fff;
+            color: #333;
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>你的名字</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#work">工作经历</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网页</h1>
+            <p>这里是展示个人信息和作品的地方</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>关于我</h2>
+        <p>在这里添加你的个人简介和背景信息。</p>
+    </section>
+
+    <section id="work" class="container">
+        <h2>工作经历</h2>
+        <p>在这里列出你的工作经历和成就。</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>联系我</h2>
+        <p>在这里提供你的联系方式，比如邮箱或社交媒体链接。</p>
+    </section>
+
+    <footer>
+        <p>版权所有 &copy; 2024 你的名字</p>
+    </footer>
+</body>
+</html>
